@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 50022934789512304}
   - component: {fileID: 718347130}
   - component: {fileID: 114039593500754866}
+  - component: {fileID: 210846256263601432}
   m_Layer: 8
   m_Name: coin
   m_TagString: Untagged
@@ -198,3 +199,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   physicsDuration: 0.5
+--- !u!210 &210846256263601432
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448908624494533598}
+  m_Enabled: 1
+  m_SortingLayerID: 82834507
+  m_SortingLayer: 2
+  m_SortingOrder: 0

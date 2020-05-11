@@ -85,6 +85,7 @@ GameObject:
   - component: {fileID: 114205519101148144}
   - component: {fileID: 114007331037262508}
   - component: {fileID: 61716953852812076}
+  - component: {fileID: 210803583667531154}
   m_Layer: 9
   m_Name: GoblinAsset
   m_TagString: Enemy
@@ -141,8 +142,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 82834507
-  m_SortingLayer: 2
+  m_SortingLayerID: -1454411345
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 28f18d42b60c11846a4ffdd08fa74a27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -175,7 +176,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &5482260143880814577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,9 +205,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextAttack: 0
+  timeUntilNextAttack: 0
   playerStats: {fileID: 0}
+  enemyStats: {fileID: 0}
   damageNumber: {fileID: 9078315809180193465, guid: 290942c47931d1243be135cf0e396fca,
     type: 3}
+  enemyMovement: {fileID: 0}
+  recordedStopPosition: {x: 0, y: 0, z: 0}
+  moveToPlayer: {x: 0, y: 0, z: 0}
+  currentDirection: {x: 0, y: 0, z: 0}
   attackPlayer: 0
 --- !u!114 &114007331037262508
 MonoBehaviour:
@@ -264,3 +271,14 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.25, y: 3.81}
   m_EdgeRadius: 0
+--- !u!210 &210803583667531154
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5482260143880814579}
+  m_Enabled: 1
+  m_SortingLayerID: -1454411345
+  m_SortingLayer: 3
+  m_SortingOrder: 0

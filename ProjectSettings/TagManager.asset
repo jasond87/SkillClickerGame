@@ -50,6 +50,9 @@ TagManager:
   - name: Playground
     uniqueID: 82834507
     locked: 0
+  - name: Interactable
+    uniqueID: 2840555951
+    locked: 0
   - name: Foreground
     uniqueID: 1268398441
     locked: 0

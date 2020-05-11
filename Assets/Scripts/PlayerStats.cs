@@ -19,10 +19,13 @@ public class PlayerStats : MonoBehaviour
     public int currentExperience;
     public int playerCurrentLevel;
 
+    private GameObject playerCharacter;
+
     // Start is called before the first frame update
     void Start()
     {
         playerCurrentHealth = playerMaxHealth;
+        playerCharacter = GameObject.Find("2dHero");
     }
 
     // Update is called once per frame
@@ -32,7 +35,7 @@ public class PlayerStats : MonoBehaviour
 
         if (playerCurrentHealth <= 0) {
             Debug.Log("Player died");
-            Destroy(gameObject);
+            Destroy(playerCharacter);
             
         }
 
