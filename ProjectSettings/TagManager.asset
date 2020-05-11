@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - EnemyMiniBoss
+  - Weakness
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Items
+  - Enemies
+  - Lane1
+  - Lane2
+  - Floor
+  - Sky
+  - Lane3
+  - Lane4
+  - Lane5
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1206143931
+    locked: 0
+  - name: Playground
+    uniqueID: 82834507
+    locked: 0
+  - name: Foreground
+    uniqueID: 1268398441
+    locked: 0
